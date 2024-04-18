@@ -92,5 +92,6 @@ Within the for loop, print each food string.
 for dish in [dish for dish in foods if 'a' in dish]:
     print(dish)
 
-for dish in [dish for dish in foods if 'n' in dish]:
+dishes_with_n = [dish for dish in foods if 'n' in dish]
+for dish in dishes_with_n:
     print(dish)
